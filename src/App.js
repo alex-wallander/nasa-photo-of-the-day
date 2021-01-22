@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h2>Nasa Picture for the day</h2>
+      <h1>Nasa Picture for the day</h1>
         <Button getDataBtn={getData}/>
         <Image image={details}/>
     </div>
